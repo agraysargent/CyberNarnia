@@ -1,0 +1,27 @@
+{
+  "name": "cybernarnia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agraysargent/CyberNarnia.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agraysargent/CyberNarnia/issues"
+  },
+  "homepage": "https://github.com/agraysargent/CyberNarnia#readme",
+  "dependencies": {
+    "@nilsboy/bookshelf-manager": "^0.3.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "mysql2": "^2.2.5"
+  }
+}
