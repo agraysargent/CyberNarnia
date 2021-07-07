@@ -2,29 +2,33 @@ const router = require('express').Router();
 const { Book, User } = require('../models');
 const withAuth = require('../utils/auth');
 
+
+
+// router.get('/', (req, res) => {
+//   res.render('loginmain'); 
+// })
+
 router.get('/', async (req, res) => {
   try {
-    const bookData = await Book.findAll({
-      include: [
-        {
-          model: User,
-          attributes: ['name'],
-        },
-      ],
-    });
+    // const bookData = await Book.findAll({
+    //   include: [
+    //     {
+    //       model: User,
+    //       attributes: ['name'],
+    //     },
+    //   ],
+    // });
 
-    // Serialize data so the template can read it
-    const books = bookData.map((book) => book.get({ plain: true }));
+    // // Serialize data so the template can read it
+    // const books = bookData.map((book) => book.get({ plain: true }));
 
     // Pass serialized data and session flag into template
-    res.render('homepage', { 
-      projects, 
-      logged_in: req.session.logged_in 
-    });
+    res.render('loginmain');
   } catch (err) {
     res.status(500).json(err);
   }
 });
+
 
 router.get('/project/:id', async (req, res) => {
   try {

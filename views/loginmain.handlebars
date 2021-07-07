@@ -1,17 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
-    />
-    <title>CyberNarnia</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <h1>Welcome to CyberNarnia!</h1>
+{{!-- <form class="login-form">
+  <div>
+    <label for="email-login">Email:</label>
+    <input type="text" id="email-login" />
+  </div>
+  <div>
+    <label for="password-login">Password:</label>
+    <input type="password" id="password-login" />
+  </div>
+  <div>
+    <button type="submit">Login</button>
+  <p>this is slogin </p>
+  </div>
+</form>
+
+<a href="/signup">Sign Up Here:</a> --}}
+
+
+  <h1>Welcome to CyberNarnia!</h1>
     <form action="signup.php">
       <div class="container">
         <h1>Register</h1>
@@ -47,10 +52,6 @@
         <p>Already have an account? <a href="#">Sign in</a>.</p>
       </div>
     </form>
-  </body>
-  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
-  <script>
-    var template = Handlebars.compile("Handlebars <b>{{doesWhat}}</b>");
-    console.log(template({ doesWhat: "rocks!" }));
-  </script>
-</html>
+
+    
+<script src="/javascript/login.js"></script>
