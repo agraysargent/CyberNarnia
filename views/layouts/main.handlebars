@@ -8,16 +8,12 @@
       content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
     />
     <title>CyberNarnia</title>
-    <link rel="stylesheet" href="dashboard.css" />
+    <link rel="stylesheet" href="../../public/styles.css" />
   </head>
-
   <body>
-    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
-
-    <ul id="myMenu">
-      <li><a href="#">Books</a></li>
+      {{{ body }}}
+  
   </body>
-
   <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
   <script>
     var template = Handlebars.compile("Handlebars <b>{{doesWhat}}</b>");

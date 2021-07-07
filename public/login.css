@@ -28,7 +28,8 @@ hr {
 }
 
 .registerbtn {
-  background-color: #04aa6d;
+  background-color: blue;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: white;
   padding: 16px 20px;
   margin: 8px 0;
@@ -40,10 +41,24 @@ hr {
 
 .registerbtn:hover {
   opacity: 1;
+  transform: translateY(0);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  opacity: 0.2;
+  transition: 0.5s;
 }
 
 a {
   color: dodgerblue;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .signin {
