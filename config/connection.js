@@ -15,7 +15,7 @@ const sequelize = new Sequelize(
     dialect: 'mysql',
     port: 3301,
   }
-}
-);
+
+)};
 
 module.exports = sequelize;
