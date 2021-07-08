@@ -20,7 +20,7 @@ Steve Carofano, Scott Core, Stephanie Gaston, & Angelica Sargent
 
 # Screenshot
 
-![]()
+![Screenshot](./assets/images/currentstate.png)
 
 # Link
 Check out CyberNarnia [here](https://quiet-hollows-63392.herokuapp.com/)!
